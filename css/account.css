@@ -1,0 +1,103 @@
+
+body {
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: 1600px 1200px;
+}
+
+
+#sidebar {
+    overflow:hidden;
+    height: 100%;
+    width: 250px;
+    min-width: 50px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #78a2d3;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+
+.profileImg{
+    width:200px;
+    height:210px;
+    margin-left:24px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #775555;
+    margin-left:22px;
+    display: block;
+}
+
+button{
+    margin-left:22px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#main {
+    position: relative;
+    margin-left: 125px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px 0px 100px;
+
+}
+
+.personalInfo{
+    background-color: #78a2d3;
+    position: absolute;
+    min-width:200px;
+    min-height:210px;
+    margin-top:430px;
+    margin-left:100px;
+    width:400px;
+    height:200px;
+
+}
+
+#news{
+    background-color: #78a2d3;
+    position: absolute;
+    margin-top: 50px;
+    margin-left:550px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    width:450px;
+    height:500px;
+
+}
+
+#diseases{
+    background-color: #78a2d3;
+    position: absolute;
+    margin-top: 50px;
+    margin-left:50px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    width:450px;
+    height:500px;
+
+}
+
+#userDiseasetbl{
+    font-size:16px;
+    background-color:#D3D3D3;
+    border: solid;
+    overflow-y: scroll;
+    border: 1px solid #888;
+    height:450px;
+    width:380px;
+    top: 20px;
+    margin-top:20px; 
+    margin-left: 400px;
+    display: block;
+}

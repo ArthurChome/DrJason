@@ -1,0 +1,15 @@
+DATABASE INFO:
+We will be using MongoDB for this project as back-end storage for the server.
+
+CLUSTER IP ADDRESS:
+134.184.254.81/32
+
+SCRUM USERS:
+1.) Username: Confituur1234
+    Password: Arthur0!
+    Role: admin
+2.) Username: teamMember
+    Password: 9DJiKLONeSMpeExw
+    Role: read and write to any database
+ARTHUR CHOME OWN DEVICE:
+1.) MYSQL root password (important): Team3root

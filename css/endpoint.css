@@ -1,0 +1,53 @@
+
+body {
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: 1600px 1200px;
+    background-color: #78a2d3;
+}
+
+textarea {
+    resize: none;
+}
+
+div{
+    background-color: #78a2d3;
+}
+
+.wrapper {
+    width: 1600px;
+   
+    overflow: hidden; 
+}
+
+.queryDiv {
+    width: 625px;
+    float:left; 
+
+}
+
+.resultDiv {
+
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#queryInput{
+    margin-top:0px;
+    margin-left:20px;
+    overflow:auto; 
+    border:solid 1px black;
+}
+
+#resultTbl{
+    font-size:16px;
+    background-color:#D3D3D3;
+    border: solid;
+    overflow-y: scroll;
+    border: 1px solid #888;
+    height:435px;
+    width:615px;
+    top: 20px;
+    margin-top:5px; 
+    margin-left: 20px;
+    display: block;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "oisproject",
+  "version": "1.0.0",
+  "description": "ois project",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "datamuse": "^1.0.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.1.10",
+    "mongojs": "^2.6.0",
+    "mysql": "^2.16.0",
+    "rdfstore": "^0.9.17",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "session-file-store": "^1.2.0",
+    "sparql-client-2": "^0.6.3",
+    "sparql-client2": "^0.2.0",
+    "uuid": "^3.3.2",
+    "virtuoso-sparql-client": "^0.2.2",
+    "wikijs": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonaert/OISProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonaert/OISProject/issues"
+  },
+  "homepage": "https://github.com/bonaert/OISProject#readme"
+}

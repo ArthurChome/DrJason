@@ -1,0 +1,63 @@
+
+body {
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: 1600px 1200px;
+    background-color: #78a2d3;
+}
+
+div{
+    background-color: #78a2d3;
+}
+
+.wrapper {
+    width: 1600px;
+   
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+.left {
+    width: 500px;
+    float:left; /* add this */
+
+}
+.right {
+
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#diseaseDescriptionAPI{
+    margin-top:0px;
+    width:760px;
+    height:475px; 
+    overflow:auto; 
+    border:solid 1px black;
+}
+
+#userSymptomstbl{
+    font-size:16px;
+    background-color:#D3D3D3;
+    border: solid;
+    overflow-y: scroll;
+    border: 1px solid #888;
+    height:225px;
+    width:450px;
+    top: 20px;
+    margin-top:5px; 
+    margin-left: 20px;
+    display: block;
+}
+
+#curetbl{
+    font-size:16px;
+    background-color:#D3D3D3;
+    border: solid;
+    overflow-y: scroll;
+    border: 1px solid #888;
+    height:225px;
+    width:450px;
+    top: 20px;
+    margin-top:5px; 
+    margin-left: 20px;
+    display: block;
+}
+
